@@ -1,0 +1,8 @@
+;<SWapping content of two location>
+LHLD 0040H
+XCHG
+LHLD 0050H	
+SHLD 0040H
+XCHG
+SHLD 0050H 	
+HLT
