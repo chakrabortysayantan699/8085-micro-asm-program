@@ -9,8 +9,7 @@ INX H
 INX D
 DCR B
 JNZ LOOP
-LXI H ,0008H //at last put a number to identfy last of 
-the  array
+LXI H ,0008H     //at last put a number to identfy the  array
 MOV A,M
 STAX D
 HLT
